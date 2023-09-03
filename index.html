@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Ghosh - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ecfb2bc81.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI & ML Developer</p>
+                <h1>Hey there! I am <span>Siddharth Ghosh.</span><br>Welcome to my portfolio ;)</h1>
+            </div>
+        </div>
+    </div>
+    <!-----about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="dev_pic2.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="desc">
+                        Over the last couple of years, I have always found my life mysterious and my thoughts limited.
+                        However, I intend to change that now. It's because I have a lot more to share about myself now.
+                        So, without any further ado, welcome to my profile.
+                        I am currently a student at SRM Institute of Science and Technology, who is pursuing a degree in
+                        B-Tech with a specialization in Artificial Intelligence.
+                        Machine Learning is a field I am deeply interested in. I could call myself a decent coder based
+                        on the type of problems that I am asked to solve.</p>
+                    <p class="desc">
+                        Apart from that, I am an avid Avgeek and an ardent motorhead, aka, a car nerd. Airplanes and
+                        Aviation have always fascinated me since I was a child.
+                        To be honest, I love studying and learning about the Automobile and Aviation industry more than
+                        anything else.
+                        If my Machine Learning skills could help me in any of these domains, it would mean the world to
+                        me.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C, C++, Python</span><br>Education at SRMIST</li>
+                            <li><span>DBMS, MATLAB, Proteus, Arduino IDE</span><br>Education at SRMIST</li>
+                            <li><span>HTML, CSS, JavaScript, Blender</span><br>Web/App Development and Designing
+                                Experience</li>
+                            <li><span>AI & ML (Deep Learning, Reinforcement Learning)</span><br>Building/R&D on ML
+                                models, Education at SRMIST</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Hackathon</span><br>Organized by ImpactAI via a student committee in SRM</li>
+                            <li><span>Aerospanza</span><br>Organized via a student committee in SRM, used Blender to
+                                design a model of a hypersonic aircraft.</li>
+                            <li><span>Own Experience</span><br>Creation & Development of this portfolio</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Primary School (2005-2018)</span><br>The Brigage School (CBSE)</li>
+                            <li><span>Secondary School (2018-2020)</span><br>Deeksha - JS PU College (State Board)</li>
+                            <li><span>College Education (2020-2024)</span><br>SRM Institute of Science and Technology
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Designer</h2>
+                    <p>I have been working on this website and it took almost one week to finish it.
+                        Hence, I could very well qualify myself as a web Developer/Designer and the anount of knowledge
+                        I gained from making this Portfilio is more than any college could ever teach me.
+                    </p>
+                    <a href="https://brainstation.io/career-guides/what-is-a-web-designer">Learn more</a>
+                </div>
+                <div>
+                    <h2>AI & ML Developer</h2>
+                    <p>As mentioned before, I am persuing a degree in Artificial Intelligence. This not only makes me an
+                        AIML Developer (sort of), but also makes me part of the up coming future, which I am greatful
+                        for.
+                        For this reason, I would like to call my self the same.
+                    </p>
+                    <a href="https://brainstation.io/career-guides/what-is-a-machine-learning-engineer">Learn more</a>
+                </div>
+                <div>
+                    <h2>3D Model Designer</h2>
+                    <p>I have been working on improving and enhancing my skills on 3D modeling using Blender. Blender is
+                        an
+                        open-source 3D computer graphics software tool set used for creating animated films, visual
+                        effects, art,
+                        3D-printed models, motion graphics, interactive 3D applications, virtual reality, and, formerly,
+                        video games.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/3D_modeling">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----portfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="back_pic1.jpg">
+                    <div class="layer">
+                        <h3>Projects</h3>
+                        <p>Here are some of my projects that I have worked on over the last few years.
+                            To see them, just click on the link down below.
+                        </p>
+                        <a href="https://github.com/Engulfedbasher"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="back_pic2.jpg">
+                    <div class="layer">
+                        <h3>Courses</h3>
+                        <p>Here are some of the courses that I have done in the last couple of years.
+                            To see them, just click on the link down below.
+                        </p>
+                        <a href="https://www.coursera.org/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="back_pic3.jpg">
+                    <div class="layer">
+                        <h3>Extracurricular</h3>
+                        <p>Here are some of the extracurricular activities that I have participated in over the last few
+                            years.
+                            To see them, just click on the link down below.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.fidgetpage.com" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----contact----->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> siddharth29.ghosh@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9844996549</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Engulfedbasher"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/siddharth-ghosh-13b15a1b6/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Engulfedbasher"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/sidd_d_sloth/"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="dev_resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Siddharth Ghosh. Have a nice day!</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwA3DYh9-lqwHNZCeFlYimdu7SkgqqH6f4nISLvV_pca8qEPzxWQN1WedmBD2R3Ykbl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message has been sent successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
